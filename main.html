@@ -111,28 +111,14 @@
       .container {
         background: url(/yu_project/img/YU_cover.png) center top no-repeat;
         width: 100%;
-        height: 600px;
+        height: 700px;
         background-size: cover;
         box-sizing: border-box;
-      }
-      .container .row {
-        padding-top: 50px;
-        flex-wrap: wrap;
-      }
-      .container .row .col {
-        position: relative;
-        margin-left: 130px;
-        border-radius: 10px;
-        width: 900px;
-        height: 480px;
-        background-color: #ffffff;
-        background-color: rgba(255, 255, 255, 0.8);
-      }
-      .container .row .col .box {
-        position: relative;
-        padding: 53px 67px;
+        align-items: center;
       }
       .container .main-title {
+        padding-top: 50px;
+        text-align: center;
       }
       .container .main-title p {
         font-size: 2rem;
@@ -140,26 +126,47 @@
         font-weight: 900;
         color: #000000;
       }
+      .container .row {
+        flex-wrap: wrap;
+      }
+
+      .container .row .col {
+        position: relative;
+        border-radius: 10px;
+        margin: 0 auto;
+        width: 900px;
+        height: 440px;
+        margin-top: 30px;
+        background-color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .container .row .col .box {
+        position: relative;
+        padding: 30px 67px;
+        margin: 0 auto;
+      }
+
       .container ul {
         position: relative;
       }
       .container ul li {
         display: flex;
-        padding: 0 0 20px 0;
+        padding: 0 0 15px 0;
         width: 100%;
         text-align: left;
         font-size: 1.25rem;
       }
       .container ul li .mini-title-box {
         position: relative;
-        padding: 0 10px 0 0;
-        background-color: none;
+        width: 300px;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        background-color: #0055b6;
       }
       .container ul li .mini-title-box p {
         position: relative;
         font-weight: 800;
-        color: #0055b6;
-        padding: 0 0 0 10px;
+        color: #fff;
       }
       .container ul li .mini-txt-box {
         padding: 0 0 0 20px;
@@ -190,7 +197,7 @@
         background: url(./img/LAB_UI_white.png) no-repeat;
       }
       .footer .footer-info-box p:nth-child(1),
-      :nth-child(4) {
+      .footer .footer-info-box p:nth-child(4) {
         margin-top: 20px;
       }
     </style>
@@ -204,12 +211,12 @@
       </h1>
     </div>
     <div class="container">
+      <div class="main-title">
+        <p>TBD Program</p>
+      </div>
       <div class="row">
         <div class="col">
           <div class="box">
-            <div class="main-title">
-              <p>TBD Program</p>
-            </div>
             <ul>
               <li>
                 <div class="mini-title-box">
@@ -277,8 +284,8 @@
           경북 경산시 대학로 280, 영남대학교 정보통신연구소관 1층, Republic of
           Korea
         </p>
-        <p>TEL. +82-53-810-3942</p>
-        <p>Mail. infocom@yu.ac.kr</p>
+        <p>TEL +82-53-810-3942</p>
+        <p>Mail infocom@yu.ac.kr</p>
         <p>
           Copyright © 2022 Institute of Information and Comunication All rights
           reserved
