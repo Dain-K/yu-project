@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+address,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+body {
+  position: relative;
+  font-family: "Noto Sans KR", "NotoSansCJKsc", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.025rem;
+  color: #333;
+  letter-spacing: -0.025rem;
+}

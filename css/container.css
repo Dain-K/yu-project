@@ -1,0 +1,59 @@
+.container {
+  background: url(/yu_project/img/YU_cover.png) center top no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.container .row {
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.container .row .col {
+  position: relative;
+  margin-left: 130px;
+  border-radius: 10px;
+  width: 900px;
+  height: 480px;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.container .row .col .box {
+  position: relative;
+  padding: 53px 67px;
+}
+.container .main-title {
+}
+.container .main-title p {
+  font-size: 2rem;
+  line-height: 3.125rem;
+  font-weight: 900;
+  color: #000000;
+}
+.container ul {
+  position: relative;
+}
+.container ul li {
+  display: flex;
+  padding: 0 0 20px 0;
+  width: 100%;
+  text-align: left;
+  font-size: 1.25rem;
+}
+.container ul li .mini-title-box {
+  position: relative;
+  padding: 0 10px 0 0;
+  background-color: none;
+}
+.container ul li .mini-title-box p {
+  position: relative;
+  font-weight: 800;
+  color: #0055b6;
+  padding: 0 0 0 10px;
+}
+.container ul li .mini-txt-box {
+  padding: 0 0 0 20px;
+}
+.container ul li .mini-txt-box .mini-txt {
+  font-weight: 800;
+}

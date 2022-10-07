@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #11244c;
+  display: flex;
+  color: #fff;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footer .footer-logo-box {
+  position: relative;
+  display: block;
+}
+.footer .footer-logo-box .logo {
+  width: 500px;
+  height: 145px;
+  background: url(./img/LAB_UI_white.png) no-repeat;
+}
+.footer .footer-info-box p:nth-child(1),
+:nth-child(4) {
+  margin-top: 20px;
+}
