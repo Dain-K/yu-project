@@ -12,15 +12,14 @@
   padding-right: 5%;
 }
 .footer .footer-logo-box {
-  position: relative;
   display: block;
 }
 .footer .footer-logo-box .logo {
   width: 500px;
   height: 145px;
-  background: url(./img/LAB_UI_white.png) no-repeat;
+  background: url(../images/LAB_UI_white.png) no-repeat;
 }
 .footer .footer-info-box p:nth-child(1),
-:nth-child(4) {
+.footer .footer-info-box p:nth-child(4) {
   margin-top: 20px;
 }

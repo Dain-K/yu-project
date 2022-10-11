@@ -1,57 +1,71 @@
 .container {
-  background: url(/yu_project/img/YU_cover.png) center top no-repeat;
+  background: url(../images/YU_cover.png) center top no-repeat;
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-size: cover;
   box-sizing: border-box;
+  align-items: center;
 }
-.container .row {
+.container .main-title {
   padding-top: 50px;
-  flex-wrap: wrap;
-}
-.container .row .col {
-  position: relative;
-  margin-left: 130px;
-  border-radius: 10px;
-  width: 900px;
-  height: 480px;
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-.container .row .col .box {
-  position: relative;
-  padding: 53px 67px;
+  text-align: center;
 }
 .container .main-title p {
   font-size: 2rem;
   line-height: 3.125rem;
   font-weight: 900;
-  color: #000000;
+  color: #fff;
 }
+.container .row {
+  flex-wrap: wrap;
+}
+
+.container .row .col {
+  position: relative;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 900px;
+  height: 480px;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 60%);
+}
+.container .row .col .box {
+  position: relative;
+  padding: 25px 67px;
+  margin: 0 auto;
+}
+
 .container ul {
   position: relative;
 }
 .container ul li {
   display: flex;
-  padding: 0 0 20px 0;
+  padding: 0 0 13px 0;
   width: 100%;
   text-align: left;
   font-size: 1.25rem;
 }
 .container ul li .mini-title-box {
   position: relative;
-  padding: 0 10px 0 0;
-  background-color: none;
+  width: 300px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background-color: #0055b6;
 }
 .container ul li .mini-title-box p {
   position: relative;
   font-weight: 800;
-  color: #0055b6;
-  padding: 0 0 0 10px;
+  color: #fff;
+  font-size: 1.2rem;
 }
 .container ul li .mini-txt-box {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 25px;
 }
 .container ul li .mini-txt-box .mini-txt {
   font-weight: 800;
+  font-size: 1.2rem;
+}
+.container ul li .mini-txt-box .add {
+  margin-top: 10px;
 }
