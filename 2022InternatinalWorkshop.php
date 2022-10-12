@@ -97,6 +97,55 @@
         </div>
       </div>
     </div>
+    <div class="under_container">
+      <div class="title">
+        <p>The following are the people sent from each school as members of the commitee of this workshop.</p>
+      </div>
+      <div class="content">
+        <ul>
+          <li>
+            <div>
+              <p>Japan</p>
+            </div>
+            <div>
+              <p>General Co-chair: Prof. Akinori Ito</p>
+              <p>TPC Co-chair: Prof. Hirohito Yamada</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>China</p>
+            </div>
+            <div>
+              <p>General Co-chair: Prof. Ming-Li</p>
+              <p>TPC Co-chair: Prof. Xiao-Feng Gong</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>Korea</p>
+            </div>
+            <div>
+              <p>General Co-chair: Prof. Yong Wan Park</p>
+              <p>TPC Co-chair: Prof. Jin Ghoo Choi</p>
+              <p>together with Prof. Gyu Sang Choi and Prof. Woo Guil Park</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="title">
+        <p>Keynote spearkers</p>
+      </div>
+      <ul>
+        <li>
+          <div>
+            <p>Prof. Matsuda (Japan): Photonic quantum information processing - devices and applications</p>
+            <p>Prof. Lei Go (China): TBD</p>
+            <p>Prof. Sungho Kim(Korea): TBD</p>
+          </div>
+        </li>
+      </ul>
+    </div>
     <div class="footer">
       <div class="footer-logo-box">
         <p class="logo"></p>
