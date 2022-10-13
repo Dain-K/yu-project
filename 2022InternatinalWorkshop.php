@@ -13,7 +13,7 @@
   <body>
     <div class="header-box">
       <h1 class="logo">
-        <a href="#">
+        <a href="2022InternatinalWorkshop.php">
           <img
             src="./images/logo.png"
             alt="Yeungnam University Graduate School"
