@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>탭메뉴</title>
+    <style>
+      @charset "UTF-8";
+
+      * {
+        box-sizing: border-box;
+        margin: 0 auto;
+      }
+      #wrap{
+        padding-top: 20px;
+        width: 80%;
+        margin: 0 auto;
+        border: 2px solid red;
+      }
+
+      .menu1,
+      .menu2 {
+        border: 1px solid gray;
+        border-radius: 4px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 15px;
+        float: left;
+        color: black;
+        border: 2px solid yellow;
+      }
+      .menu1 h4,
+      .menu2 h4{
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .menu1.on,
+      .menu1:hover {
+        background: #ffd662;
+        color: #00539c;
+      }
+      .menu2.on,
+      .menu2:hover {
+        background: #f3a950;
+        color: #161b21;
+      }
+
+      .board1,
+      .board2 {
+        display: none;
+        height: 100%;
+        float: right;
+        width: 82%;
+        border: 2px solid yellow;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+      .menu1.on ~ .board1 {
+        display: block;
+      }
+      .menu2.on ~ .board2 {
+        display: block;
+      }
+
+      .board1 {
+        background: #ffd662;
+        color: #00539c;
+      }
+      .board2 {
+        background: #f3a950;
+        color: #161b21;
+      }
+
+      h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 22px;
+      }
+      p.juni {
+        font-size: 18px;
+        text-align: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrap">
+        <div id="tabwrap">
+            <button class="menu1 on">
+                <h4>Menu1</h4>
+            <button class="menu2">
+                <h4>Mene2</h4>
+            </button>
+
+            <div class="board1">
+            <h2>Nice Headline Here</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+            </p>
+            <p class="juni">
+                <b><u>꾸준함이 생명</u></b>
+            </p>
+            </div>
+            <div class="board2">
+            <h2>Great Headline Here</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+            </p>
+            <p class="juni">
+                <b><u>꾸생</u></b>
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      $(".menu1").click(function () {
+        $(this).addClass("on");
+        $(".menu2").removeClass("on");
+      });
+
+      $(".menu2").click(function () {
+        $(this).addClass("on");
+        $(".menu1").removeClass("on");
+      });
+    </script>
+  </body>
+</html>

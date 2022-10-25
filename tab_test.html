@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022 International Workshop on Emerging ICT</title>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/container.css" /> -->
+    <style>
+      .container {
+        background: url(./images/YU_cover.png) center top no-repeat;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        box-sizing: border-box;
+        align-items: center;
+      }
+      .container .main-title {
+        padding-top: 50px;
+        text-align: center;
+      }
+      .container .main-title p {
+        font-size: 2rem;
+        line-height: 3.125rem;
+        font-weight: 900;
+        color: #fff;
+      }
+      .container .row {
+        flex-wrap: wrap;
+      }
+
+      .container .row .col {
+        position: relative;
+        border-radius: 10px;
+        margin: 0 auto;
+        width: 900px;
+        height: 480px;
+        margin-top: 30px;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 60%);
+      }
+      .container .row .col .box {
+        position: relative;
+        padding: 25px 67px;
+        margin: 0 auto;
+      }
+
+      .container ul {
+        position: relative;
+      }
+      .container ul li {
+        display: flex;
+        padding: 0 0 13px 0;
+        width: 100%;
+        text-align: left;
+        font-size: 1.25rem;
+      }
+      .container ul li .mini-title-box {
+        position: relative;
+        width: 300px;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        background-color: #0055b6;
+      }
+      .container ul li .mini-title-box p {
+        position: relative;
+        font-weight: 800;
+        color: #fff;
+        font-size: 1.2rem;
+      }
+      .container ul li .mini-txt-box {
+        padding: 0 0 0 25px;
+      }
+      .container ul li .mini-txt-box .mini-txt {
+        font-weight: 800;
+        font-size: 1.2rem;
+      }
+      .container ul li .mini-txt-box .add {
+        margin-top: 10px;
+      }
+    </style>
+    <style>
+      .cover {
+        padding-top: 20px;
+        width: 80%;
+        margin: 0 auto;
+      }
+      #wrap {
+        padding-top: 20px;
+        width: 80%;
+        margin: 0 auto;
+        border: 2px solid red;
+      }
+
+      .menu1,
+      .menu2 {
+        border: 1px solid gray;
+        border-radius: 4px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 15px;
+        float: left;
+        color: black;
+        border: 2px solid yellow;
+      }
+      .menu1 h4,
+      .menu2 h4 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .menu1.on,
+      .menu1:hover {
+        background: #ffd662;
+        color: #00539c;
+      }
+      .menu2.on,
+      .menu2:hover {
+        background: #f3a950;
+        color: #161b21;
+      }
+
+      .board1,
+      .board2 {
+        display: none;
+        height: 100%;
+        float: right;
+        width: 82%;
+        border: 2px solid yellow;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+      .menu1.on ~ .board1 {
+        display: block;
+      }
+      .menu2.on ~ .board2 {
+        display: block;
+      }
+
+      .board1 {
+        background: #ffd662;
+        color: #00539c;
+      }
+      .board2 {
+        background: #f3a950;
+        color: #161b21;
+      }
+
+      h2 {
+        font-size: 45px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 22px;
+      }
+      p.juni {
+        font-size: 18px;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-box">
+      <h1 class="logo">
+        <a href="2022InternatinalWorkshop.php">
+          <img
+            src="./images/logo.png"
+            alt="Yeungnam University Graduate School"
+          />
+        </a>
+      </h1>
+    </div>
+
+    <div class="container"></div>
+
+    <div id="wrap">
+        <div id="tabwrap">
+            <button class="menu1 on">
+                <h4>Menu1</h4>
+            <button class="menu2">
+                <h4>Mene2</h4>
+            </button>
+
+            <div class="board1">
+            <h2>Nice Headline Here</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+            </p>
+            <p class="juni">
+                <b><u>꾸준함이 생명</u></b>
+            </p>
+            </div>
+            <div class="board2">
+            <h2>Great Headline Here</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.
+            </p>
+            <p class="juni">
+                <b><u>꾸생</u></b>
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      $(".menu1").click(function () {
+        $(this).addClass("on");
+        $(".menu2").removeClass("on");
+      });
+
+      $(".menu2").click(function () {
+        $(this).addClass("on");
+        $(".menu1").removeClass("on");
+      });
+    </script>
+
+
+    <div class="footer">
+      <div class="footer-logo-box">
+        <p class="logo"></p>
+      </div>
+      <div class="footer-info-box">
+        <p>
+          경북 경산시 대학로 280, 영남대학교 정보통신연구소관 1층, Republic of
+          Korea
+        </p>
+        <p>TEL +82-53-810-3942</p>
+        <p>Mail infocom@yu.ac.kr</p>
+        <p>
+          Copyright © 2022 Institute of Information and Comunication All rights
+          reserved
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
