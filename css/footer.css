@@ -15,7 +15,9 @@
 .footer .footer-logo-box .logo {
   width: 500px;
   height: 145px;
-  background: url(../images/LAB_UI_white.png) no-repeat;
+  background: url(./images/LAB_UI_white.png) no-repeat;
+  margin-left: 100px;
+  padding-right: 20px;
 }
 .footer .footer-info-box p:nth-child(1),
 .footer .footer-info-box p:nth-child(4) {

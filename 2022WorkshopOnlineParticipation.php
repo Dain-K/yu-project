@@ -6,82 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2022 International Workshop on Emerging ICT</title>
     <link rel="stylesheet" href="./css/header.css" />
-    <!-- <link rel="stylesheet" href="./css/footer.css" /> -->
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link rel="stylesheet" href="./css/container.css" /> -->
-    <style>
-      .container {
-        background: url(./images/YU_cover.png) center top no-repeat;
-        width: 100%;
-        height: 450px;
-        background-size: cover;
-        box-sizing: border-box;
-        align-items: center;
-      }
-      .container .main-title {
-        padding-top: 50px;
-        text-align: center;
-      }
-      .container .main-title p {
-        font-size: 2rem;
-        line-height: 3.125rem;
-        font-weight: 900;
-        color: #fff;
-      }
-      .container .row {
-        flex-wrap: wrap;
-      }
+    <link rel="stylesheet" href="./css/container.css" />
 
-      .container .row .col {
-        position: relative;
-        border-radius: 10px;
-        margin: 0 auto;
-        width: 900px;
-        height: 480px;
-        margin-top: 30px;
-        background-color: rgba(255, 255, 255, 0.9);
-        box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 60%);
-      }
-      .container .row .col .box {
-        position: relative;
-        padding: 25px 67px;
-        margin: 0 auto;
-      }
-
-      .container ul {
-        position: relative;
-      }
-      .container ul li {
-        display: flex;
-        padding: 0 0 13px 0;
-        width: 100%;
-        text-align: left;
-        font-size: 1.25rem;
-      }
-      .container ul li .mini-title-box {
-        position: relative;
-        width: 300px;
-        padding: 10px 0 10px 0;
-        text-align: center;
-        background-color: #0055b6;
-      }
-      .container ul li .mini-title-box p {
-        position: relative;
-        font-weight: 800;
-        color: #fff;
-        font-size: 1.2rem;
-      }
-      .container ul li .mini-txt-box {
-        padding: 0 0 0 25px;
-      }
-      .container ul li .mini-txt-box .mini-txt {
-        font-weight: 800;
-        font-size: 1.2rem;
-      }
-      .container ul li .mini-txt-box .add {
-        margin-top: 10px;
-      }
-    </style>
     <style>
       .cover {
         padding-top: 20px;
@@ -155,33 +83,6 @@
         width: 150px;
       }
     </style>
-    <style>
-      .footer {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 100px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        position: relative;
-        background-color: #11244c;
-        display: flex;
-        color: #fff;
-      }
-      .footer .footer-logo-box {
-        display: block;
-      }
-      .footer .footer-logo-box .logo {
-        width: 500px;
-        height: 145px;
-        background: url(./images/LAB_UI_white.png) no-repeat;
-        margin-left: 100px;
-        padding-right: 20px;
-      }
-      .footer .footer-info-box p:nth-child(1),
-      .footer .footer-info-box p:nth-child(4) {
-        margin-top: 20px;
-      }
-    </style>
   </head>
   <body>
     <div class="header-box">
@@ -202,7 +103,7 @@
         <nav>
           <ul class="panel-group">
             <li>
-              <a href="../yu_project/Welcome.html">
+              <a href="2022InternatinalWorkshop.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Welcome</h4>
@@ -211,7 +112,7 @@
               </a>
             </li>
             <li>
-              <a href="../yu_project/commitees.html">
+              <a href="2022WorkshopCommitees.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Committees</h4>
@@ -220,7 +121,7 @@
               </a>
             </li>
             <li>
-              <a href="../yu_project/program.html">
+              <a href="2022WorkshopPrograms.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Programs</h4>
@@ -229,7 +130,7 @@
               </a>
             </li>
             <li>
-              <a href="../yu_project/papersubmission.html">
+              <a href="2022WorkshopPaper.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Paper submission</h4>
@@ -238,7 +139,7 @@
               </a>
             </li>
             <li>
-              <a href="../yu_project/registration.html">
+              <a href="2022WorkshopRegistration.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Registration</h4>
@@ -247,7 +148,7 @@
               </a>
             </li>
             <li>
-              <a href="../yu_project/onlineparticipation.html">
+              <a href="2022WorkshopOnlineParticipation.php">
                 <div class="panel panel-primary on">
                   <div class="panel-heading">
                     <h4>Online participation</h4>
