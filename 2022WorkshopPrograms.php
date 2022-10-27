@@ -9,105 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/container.css" />
-    <style>
-      .cover {
-        padding-top: 20px;
-        width: 70%;
-        height: 3350px;
-        margin: 0 auto;
-      }
-      .left-container {
-        float: left;
-        display: block;
-        width: 18%;
-        color: black;
-      }
-      .right-container {
-        position: relative;
-        float: right;
-        display: block;
-        width: 78%;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-      .panel {
-        border: 1px solid gray;
-        border-radius: 4px;
-        background-color: #fff;
-        margin-bottom: 15px;
-        text-align: center;
-      }
-      .panel-primary {
-        border-color: gray;
-      }
-      .panel-primary:hover {
-        background-color: #0055b6;
-        color: #fff;
-      }
-      .panel-primary a:hover {
-        color: #fff;
-      }
-      .panel-heading {
-        cursor: pointer;
-        padding: 10px 15px;
-      }
-      a {
-        font-weight: 700;
-        font-size: 1.25rem;
-        text-decoration: none;
-        color: #000;
-      }
-      .on {
-        background-color: #0055b6;
-        color: #fff;
-      }
-      .tabcontent {
-        background-color: #fff;
-        box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 60%);
-        margin-top: 20px;
-      }
-      .tabcontent .title h4 {
-        padding-top: 50px;
-        text-align: center;
-        font-size: 2rem;
-      }
-      .tabcontent .content {
-        padding: 40px 80px 0px 80px;
-      }
-      .tabcontent .sub-title {
-        font-weight: 600;
-        font-size: 1.5rem;
-      }
-      .tabcontent .session {
-        color: #003c80;
-      }
-
-      .tabcontent .content ul {
-        list-style-type: none;
-      }
-      .tabcontent .content .bottom {
-        padding-bottom: 40px;
-      }
-      .tabcontent .content ul li {
-        font-size: 1rem;
-        padding: 0px 10px 10px 0px;
-      }
-      .tabcontent .col {
-        margin-top: 50px;
-      }
-      .tabcontent .content .img {
-        width: 80%;
-        margin-top: 20px;
-      }
-      .tabcontent .content .table-content li p:nth-child(1) {
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding-bottom: 5px;
-      }
-      .tabcontent .content .table-content li p:nth-child(2) {
-        padding-bottom: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/program.css" />
   </head>
   <body>
     <div class="header-box">
@@ -193,18 +95,87 @@
             <h2 class="sub-title">
               Oct. 28 (Fri) in Korean time (1 hour difference with Chinese time)
             </h2>
-            <img
-              src="./images/program_schedule.png"
-              alt="program_schedule"
-              class="img"
-            />
+            <table>
+              <tr>
+                <th colspan="2">Thursday, Oct. 27</th>
+              </tr>
+              <tr>
+                <td>13:00 - 18:00</td>
+                <td>Registration, Cultural exchange program</td>
+              </tr>
+              <tr>
+                <th colspan="2">
+                  Friday, Oct. 28 (Room 123, IT Hall, Yeungnam University)
+                </th>
+              </tr>
+              <tr>
+                <td>09:00 - 09:10</td>
+                <td>Welcome address</td>
+              </tr>
+              <tr>
+                <td>09:10 - 09:40</td>
+                <td>Invited talk 1 (Speaker: Prof. Sungho Kim, YU)</td>
+              </tr>
+              <tr>
+                <td>09:40 - 10:10</td>
+                <td>Invited talk 2 (Speaker: Prof. Nobuyuki Matsuda, TU)</td>
+              </tr>
+              <tr>
+                <td>10:10 - 10:20</td>
+                <td>Coffee break</td>
+              </tr>
+              <tr>
+                <td>10:20 - 11:50</td>
+                <td>Session 1 (Chair: Prof. Amin Farhan, YU)</td>
+              </tr>
+              <tr>
+                <td>11:50 - 13:00</td>
+                <td>Lunch</td>
+              </tr>
+              <tr>
+                <td>13:00 - 13:30</td>
+                <td>Invited talk 3 (Speaker: Prof. Lei Guo, DUT)</td>
+              </tr>
+              <tr>
+                <td>13:30 - 14:30</td>
+                <td>Session 2 (Chair: Prof. Ali Nauman, YU)</td>
+              </tr>
+              <tr>
+                <td>14:30 - 14:40</td>
+                <td>Coffee break</td>
+              </tr>
+              <tr>
+                <td>14:40 - 15:55</td>
+                <td>Session 3 (Chair: Prof. Junaid Gul, YU)</td>
+              </tr>
+              <tr>
+                <td>15:55 - 16:10</td>
+                <td>Coffee Break</td>
+              </tr>
+              <tr>
+                <td>16:10 - 17:20</td>
+                <td>Session 4 (Chair: Prof. Abdus Samad, YU)</td>
+              </tr>
+              <tr>
+                <td>17:20 - 17:30</td>
+                <td>Coffee Break</td>
+              </tr>
+              <tr>
+                <td>17:30 - 18:30</td>
+                <td>Session 5 (Chair: Prof. Wooguil Pak, YU)</td>
+              </tr>
+              <tr>
+                <td>18:30 - 18:40</td>
+                <td>Closing address</td>
+              </tr>
+            </table>
           </div>
           <div class="title col">
             <h4>TABLE OF CONTENTS</h4>
           </div>
           <div class="content">
             <h2 class="sub-title session">
-              Session 1 (10:20~11:50) chaired by Prof. Amin Farhan
+              Session 1 (10:20~11:50)<span> chaired by Prof. Amin Farhan</span>
             </h2>
             <ul class="table-content">
               <li>
@@ -261,8 +232,8 @@
                 </p>
               </li>
             </ul>
-            <h2 class="sub-title session">
-              Session 2 (13:30~14:30) chaired by Prof. Ali Nauman
+            <h2 class="sub-title session rol">
+              Session 2 (13:30~14:30) <span>chaired by Prof. Ali Nauman</span>
             </h2>
             <ul class="table-content">
               <li>
@@ -302,8 +273,8 @@
                 </p>
               </li>
             </ul>
-            <h2 class="sub-title session">
-              Session 3 (14:40~15:55) chaired by Prof. Junaid Gul
+            <h2 class="sub-title session rol">
+              Session 3 (14:40~15:55) <span>chaired by Prof. Junaid Gul</span>
             </h2>
             <ul class="table-content">
               <li>
@@ -354,9 +325,12 @@
                 </p>
               </li>
             </ul>
-            <h2 class="sub-title session">
-              Session 4 (16:10~17:20) chaired by Prof. Abdus Samad A Survey on
-              Deep Learning in Small Objects Detection Using Thermal
+            <h2 class="sub-title session rol">
+              Session 4 (16:10~17:20)
+              <span
+                >chaired by Prof. Abdus Samad A Survey on Deep Learning in Small
+                Objects Detection Using Thermal</span
+              >
             </h2>
             <ul class="table-content">
               <li>
@@ -402,8 +376,8 @@
                 <p>Taihan Cong (Dalian University of Technology, CHINA)</p>
               </li>
             </ul>
-            <h2 class="sub-title session">
-              Session 5 (17:30~18:30) chaired by Prof. Wooguil Pak
+            <h2 class="sub-title session rol">
+              Session 5 (17:30~18:30) <span>chaired by Prof. Wooguil Pak</span>
             </h2>
             <ul class="table-content bottom">
               <li>
