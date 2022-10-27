@@ -13,7 +13,7 @@
       .cover {
         padding-top: 20px;
         width: 70%;
-        height: 770px;
+        height: 3350px;
         margin: 0 auto;
       }
       .left-container {
@@ -72,12 +72,16 @@
         font-size: 2rem;
       }
       .tabcontent .content {
-        padding: 50px 80px 0px 80px;
+        padding: 40px 80px 0px 80px;
       }
       .tabcontent .sub-title {
         font-weight: 600;
         font-size: 1.5rem;
       }
+      .tabcontent .session {
+        color: #003c80;
+      }
+
       .tabcontent .content ul {
         list-style-type: none;
       }
@@ -87,6 +91,21 @@
       .tabcontent .content ul li {
         font-size: 1rem;
         padding: 0px 10px 10px 0px;
+      }
+      .tabcontent .col {
+        margin-top: 50px;
+      }
+      .tabcontent .content .img {
+        width: 80%;
+        margin-top: 20px;
+      }
+      .tabcontent .content .table-content li p:nth-child(1) {
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding-bottom: 5px;
+      }
+      .tabcontent .content .table-content li p:nth-child(2) {
+        padding-bottom: 10px;
       }
     </style>
   </head>
@@ -168,78 +187,248 @@
       <div class="right-container">
         <div class="tabcontent">
           <div class="title">
-            <h4>Programs</h4>
+            <h4>Workshop Programs</h4>
           </div>
           <div class="content">
             <h2 class="sub-title">
               Oct. 28 (Fri) in Korean time (1 hour difference with Chinese time)
             </h2>
-            <ul class="bottom">
+            <img
+              src="./images/program_schedule.png"
+              alt="program_schedule"
+              class="img"
+            />
+          </div>
+          <div class="title col">
+            <h4>TABLE OF CONTENTS</h4>
+          </div>
+          <div class="content">
+            <h2 class="sub-title session">
+              Session 1 (10:20~11:50) chaired by Prof. Amin Farhan
+            </h2>
+            <ul class="table-content">
               <li>
                 <p>
-                  09:00~09:10 - Welcome message by Prof. Yongwan Park (General
-                  co-chair)
+                  A Comparison of Key Sentence Estimation Methods for On-Demand
+                  Lectures Using Text Summarization Techniques and Prosodic
+                  Information
+                </p>
+                <p>
+                  Miki Takeuchi, Akinori Ito, and Takashi Nose (Tohoku
+                  University, JAPAN)
                 </p>
               </li>
               <li>
-                <p>09:10~09:40 - Invited talk1: Prof. Sungho Kim (YU)</p>
-              </li>
-              <li>
-                <p>09:40~10:10 - Invited talk2: Prof. Nobuyuki Matsuda (TU)</p>
-              </li>
-              <li>
-                <p>10:10~10:20 - Coffee break</p>
-              </li>
-              <li>
+                <p>Medical image translation using SD-GAN</p>
                 <p>
-                  10:20~11:50 - Session1 (6 standard papers) chaired by Prof.
-                  Amin Farhan (YU)
-                </p>
-              </li>
-              <li>
-                <p>11:50~13:00 - Lunch</p>
-              </li>
-              <li>
-                <p>13:00~13:30 - Invited talk3: Prof. Lei Guo (DUT)</p>
-              </li>
-              <li>
-                <p>
-                  13:30~14:30 - Session2 (4 standard papers) chaired by Prof.
-                  Ali Nauman (YU)
-                </p>
-              </li>
-              <li>
-                <p>14:30~14:40 - Coffee break</p>
-              </li>
-              <li>
-                <p>
-                  14:40~16:10 - Session3 (6 standard papers) chaired by Prof.
-                  Junaid Gul (YU)
-                </p>
-              </li>
-              <li>
-                <p>16:10~16:20 - Coffee break</p>
-              </li>
-              <li>
-                <p>
-                  16:20~17:20 - Session4 (6 short papers) chaired by Prof. Abdus
-                  Samad (YU)
-                </p>
-              </li>
-              <li>
-                <p>17:20~17:30 - Coffee break</p>
-              </li>
-              <li>
-                <p>
-                  17:30~18:30 - Session5 (6 short papers) chaired by Prof.
-                  Wooguil Pak (YU)
+                  Kyeong Min Park and Gyu Sang Choi (Yeungnam University, KOREA)
                 </p>
               </li>
               <li>
                 <p>
-                  18:30~18:40 - Closing announcement by Prof. Akinori Ito and
-                  Prof. Ming-Li (or Xiao-Feng Gong)
+                  A Study on a CALL System for Shadowing Training Using
+                  Synchronized Partial Caption
                 </p>
+                <p>
+                  Shuyu Fang, Akinori Ito, and Takashi Nose (Tohoku University,
+                  JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Joint Beamforming Design in DFRC Systems for Wideband Sensing
+                  and OFDM Communications
+                </p>
+                <p>
+                  Zichao Xiao, Rang Liu, Ming Li, Yang Liu, and Qian Liu (Dalian
+                  University of Technology, CHINA)
+                </p>
+              </li>
+              <li>
+                <p>Temperature Effects on High Gain Water Leaky Wave Antenna</p>
+                <p>
+                  Jialu Wang, Hiroyasu Sato, and Qiang Chen (Tohoku University,
+                  JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Relationship between PD and Polarization for mm-Wave Handset
+                  Antennas
+                </p>
+                <p>
+                  Jialu Xu and Hui Li (Dalian University of Technology, CHINA)
+                </p>
+              </li>
+            </ul>
+            <h2 class="sub-title session">
+              Session 2 (13:30~14:30) chaired by Prof. Ali Nauman
+            </h2>
+            <ul class="table-content">
+              <li>
+                <p>
+                  Effect of Character Expressions in Low Resource End-to-End
+                  Speech Recognition Based on Meta-learning
+                </p>
+                <p>
+                  Rui Zhou, Akinori Ito, and Takashi Nose (Tohoku University,
+                  JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Design of High-Isolated Dual-Antenna System Based on
+                  Characteristic Mode Theory
+                </p>
+                <p>
+                  Jinbo Yu and Hui Li (Dalian University of Technology, CHINA)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Measurement of Reflection Coefficient at Surface of
+                  Reflectarray
+                </p>
+                <p>
+                  Yuhao Shang, Hiroyasu Sato, and Qiang Chen (Tohoku University,
+                  JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>Constructing micro data center for outdoor use</p>
+                <p>
+                  Wang Jingchi, Hirohito Yamada, Katsumi Iwatsuki, and Taiichi
+                  Otsuji (Tohoku University, JAPAN)
+                </p>
+              </li>
+            </ul>
+            <h2 class="sub-title session">
+              Session 3 (14:40~15:55) chaired by Prof. Junaid Gul
+            </h2>
+            <ul class="table-content">
+              <li>
+                <p>
+                  Using Curriculum Learning to Optimize the Response of Spoken
+                  Dialog System
+                </p>
+                <p>
+                  Xuecheng Niu, Akinori Ito, and Takashi Nose (Tohoku
+                  University, JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>A study on conditional music generation with GAN</p>
+                <p>
+                  Seong-bin Yoon, and Hyun-Chul Choi (Yeungnam University,
+                  KOREA)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Joint Beamforming Design for Sub-Connected Active
+                  Reconfigurable Intelligent Surface
+                </p>
+                <p>
+                  Qi Zhu, Ming Liy, Yang Liu, and Qian Liu (Dalian University of
+                  Technology, CHINA)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Study on power supply of distributed antennas of Beyond 5G
+                  mobile communication system
+                </p>
+                <p>
+                  Qiongyan Tang, Katsumi Iwatsuki, and Hirohito Yamada (Tohoku
+                  University, JAPAN)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Effects of power sharing between microgrids on renewable
+                  energy utilization and grid stability
+                </p>
+                <p>
+                  Ke Liu, Hirohito Yamada, Katsumi Iwatsuki, and Taiichi Otsuji
+                  (Tohoku University, JAPAN)
+                </p>
+              </li>
+            </ul>
+            <h2 class="sub-title session">
+              Session 4 (16:10~17:20) chaired by Prof. Abdus Samad A Survey on
+              Deep Learning in Small Objects Detection Using Thermal
+            </h2>
+            <ul class="table-content">
+              <li>
+                <p>
+                  A Survey on Deep Learning in Small Objects Detection Using
+                  Thermal Images
+                </p>
+                <p>
+                  Firdiantika Indah Monisa and Sungho Kim (Yeungnam University,
+                  KOREA)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Survey: Hyperspectral Image Classification Using Deep learning
+                </p>
+                <p>
+                  Chaitali Bhattacharyya and Kim Sungho (Yeungnam University,
+                  KOREA)
+                </p>
+              </li>
+              <li>
+                <p>
+                  A Brief Survey on Array Signal Processing Techniques Based on
+                  Tensor Decompositions
+                </p>
+                <p>Gao Peng (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Brief Survey on Image Classification</p>
+                <p>Jianfeng Chen (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Brief Survey on Compressed Sensing</p>
+                <p>Hong Zhixiang (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Survey on Dielectric Resonator Antenna</p>
+                <p>Cui Yuqing (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Survey on Mobile Handsets Antenna Design</p>
+                <p>Taihan Cong (Dalian University of Technology, CHINA)</p>
+              </li>
+            </ul>
+            <h2 class="sub-title session">
+              Session 5 (17:30~18:30) chaired by Prof. Wooguil Pak
+            </h2>
+            <ul class="table-content bottom">
+              <li>
+                <p>A Brief Survey on Deepfake Audio Detection</p>
+                <p>Yidan Liu (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Brief Survey on Blockchain and its Application</p>
+                <p>Chen Kaifeng (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Brief Survey on Double JPEG Compression Forensics</p>
+                <p>Yulong Jiang (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>A Brief Survey on Robust Watermarking for Digital Image</p>
+                <p>Yihan Qian (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>An Overview of Social Engineering</p>
+                <p>Feng Yuyang (Dalian University of Technology, CHINA)</p>
+              </li>
+              <li>
+                <p>An Overview on Explainable AI</p>
+                <p>Yin Da (Dalian University of Technology, CHINA)</p>
               </li>
             </ul>
           </div>

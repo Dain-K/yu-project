@@ -95,6 +95,9 @@
       .tabcontent .email {
         padding-top: 10px;
       }
+      .tabcontent .bottom {
+        padding-bottom: 40px;
+      }
     </style>
   </head>
   <body>
@@ -251,7 +254,7 @@
           <div class="sub-title">
             <h4>Submission</h4>
           </div>
-          <div class="text email">
+          <div class="text email bottom">
             E-mail to jchoi@yu.ac.kr (Prof. Jin-Ghoo Choi, TPC co-chair)
           </div>
         </div>

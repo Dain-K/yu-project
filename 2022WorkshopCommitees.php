@@ -195,7 +195,7 @@
                 <p>Xiao-Feng Gong, Dalian University of Technology, CHINA</p>
               </li>
             </ul>
-            <h2 class="sub-title">Steering Ccommittee</h2>
+            <h2 class="sub-title">Steering Committee</h2>
             <ul>
               <li>
                 <p>Sung Won Kim, Yeungnam University, KOREA</p>
@@ -207,7 +207,7 @@
                 <p>Gyu Sang Choi, Yeungnam University, KOREA</p>
               </li>
               <li>
-                <p>Wooguil Pak, Yeungnam University, KOREA</p>
+                <p>Wooguil Park, Yeungnam University, KOREA</p>
               </li>
             </ul>
             <h2 class="sub-title">Finance and Registration Chair</h2>

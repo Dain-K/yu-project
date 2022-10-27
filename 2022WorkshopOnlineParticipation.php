@@ -73,14 +73,45 @@
         text-align: center;
         font-size: 2rem;
       }
-      .tabcontent h2 {
-        font-weight: 300;
+      .tabcontent .content .text {
         padding-top: 10px;
-        padding-bottom: 30px;
-        font-size: 1.25rem;
+        padding-bottom: 10px;
+        font-size: 1rem;
       }
-      .tabcontent .content img {
-        width: 150px;
+      .tabcontent .content button {
+        display: inline-block;
+        border: none;
+        width: 250px;
+        border-radius: 10px;
+        padding: 10px 30px 10px 30px;
+        background-color: #0f71ed;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s;
+      }
+      .tabcontent .content .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .tabcontent .content .button span::after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .tabcontent .content .button:hover span {
+        padding-right: 25px;
+      }
+      .tabcontent .content .button:hover span:after {
+        opacity: 1;
+        right: 0;
       }
     </style>
   </head>
@@ -165,11 +196,17 @@
             <h4>Online participant</h4>
           </div>
           <div class="content">
-            <img
-              src="http://newsimg.hankookilbo.com/2020/04/09/202004090645019029_4.jpg"
-              alt="zoom"
-            />
-            <h2>Zoom (Zoom link will be announced on Oct. 27 (Thur))</h2>
+            <div class="text">
+              <h2>Zoom Link</h2>
+            </div>
+            <div>
+              <button
+                onclick="location.href='https://us02web.zoom.us/j/81871524332?pwd=UlhxVEtITlpOaEhiS2x6aHFobFNnZz09';"
+                class="button"
+              >
+                <span>Start Zoom Meeting</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
