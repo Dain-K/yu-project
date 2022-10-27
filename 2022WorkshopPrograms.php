@@ -60,7 +60,7 @@
               <a href="2022WorkshopPaper.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
-                    <h4>Paper submission</h4>
+                    <h4>Paper Submission</h4>
                   </div>
                 </div>
               </a>
@@ -78,7 +78,7 @@
               <a href="2022WorkshopOnlineParticipation.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
-                    <h4>Online participation</h4>
+                    <h4>Online Participation</h4>
                   </div>
                 </div>
               </a>
@@ -420,7 +420,7 @@
           Korea
         </p>
         <p>TEL +82-53-810-3942</p>
-        <p>Mail infocom@yu.ac.kr</p>
+        <p>MAIL infocom@yu.ac.kr</p>
         <p>
           Copyright © 2022 Institute of Information and Comunication All rights
           reserved

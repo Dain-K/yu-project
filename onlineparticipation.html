@@ -9,111 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/container.css" />
-
-    <style>
-      .cover {
-        padding-top: 20px;
-        width: 70%;
-        height: 600px;
-        margin: 0 auto;
-      }
-      .left-container {
-        float: left;
-        display: block;
-        width: 18%;
-        color: black;
-      }
-      .right-container {
-        position: relative;
-        float: right;
-        display: block;
-        width: 78%;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-      .panel {
-        border: 1px solid gray;
-        border-radius: 4px;
-        background-color: #fff;
-        margin-bottom: 15px;
-        text-align: center;
-      }
-      .panel-primary {
-        border-color: gray;
-      }
-      .panel-primary:hover {
-        background-color: #0055b6;
-        color: #fff;
-      }
-      .panel-primary a:hover {
-        color: #fff;
-      }
-      .panel-heading {
-        cursor: pointer;
-        padding: 10px 15px;
-      }
-      a {
-        font-weight: 700;
-        font-size: 1.25rem;
-        text-decoration: none;
-        color: #000;
-      }
-      .on {
-        background-color: #0055b6;
-        color: #fff;
-      }
-      .tabcontent {
-        background-color: #fff;
-        box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 60%);
-        padding: 40px 60px 30px 60px;
-        margin-top: 20px;
-      }
-      .tabcontent .title h4 {
-        padding-top: 10px;
-        text-align: center;
-        font-size: 2rem;
-      }
-      .tabcontent .content .text {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 1rem;
-      }
-      .tabcontent .content button {
-        display: inline-block;
-        border: none;
-        width: 250px;
-        border-radius: 10px;
-        padding: 10px 30px 10px 30px;
-        background-color: #0f71ed;
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 600;
-        cursor: pointer;
-        text-align: center;
-        transition: all 0.5s;
-      }
-      .tabcontent .content .button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
-      .tabcontent .content .button span::after {
-        content: "\00bb";
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
-      .tabcontent .content .button:hover span {
-        padding-right: 25px;
-      }
-      .tabcontent .content .button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="./css/online.css" />
   </head>
   <body>
     <div class="header-box">
@@ -164,7 +60,7 @@
               <a href="2022WorkshopPaper.php">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
-                    <h4>Paper submission</h4>
+                    <h4>Paper Submission</h4>
                   </div>
                 </div>
               </a>
@@ -182,7 +78,7 @@
               <a href="2022WorkshopOnlineParticipation.php">
                 <div class="panel panel-primary on">
                   <div class="panel-heading">
-                    <h4>Online participation</h4>
+                    <h4>Online Participation</h4>
                   </div>
                 </div>
               </a>
@@ -193,7 +89,7 @@
       <div class="right-container">
         <div class="tabcontent">
           <div class="title">
-            <h4>Online participant</h4>
+            <h4>Online Participant</h4>
           </div>
           <div class="content">
             <div class="text">
@@ -222,7 +118,7 @@
           Korea
         </p>
         <p>TEL +82-53-810-3942</p>
-        <p>Mail infocom@yu.ac.kr</p>
+        <p>MAIL infocom@yu.ac.kr</p>
         <p>
           Copyright © 2022 Institute of Information and Comunication All rights
           reserved
