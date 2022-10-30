@@ -128,7 +128,7 @@
                 <p>Gyu Sang Choi, Yeungnam University, KOREA</p>
               </li>
               <li>
-                <p>Wooguil Park, Yeungnam University, KOREA</p>
+                <p>Wooguil Pak, Yeungnam University, KOREA</p>
               </li>
             </ul>
             <h2 class="sub-title">Finance and Registration Chair</h2>
