@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/container.css" />
     <link rel="stylesheet" href="./css/paper.css" />
+    <link rel="stylesheet" href="./css/btn.css" />
     <script
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"
       type="text/javascript"
@@ -41,54 +42,10 @@
         .container {
           height: 200px;
         }
-        .main-navigation {
-          position: fixed;
-          top: 0;
-          left: 0;
-          padding: 80px 20px;
-          width: 100%;
-          height: 100vh;
-          background-color: rgba(14, 25, 38, 0.9);
-          opacity: 0;
-          visibility: 12px;
-        }
-        .main-navigation.active {
-          opacity: 1;
-          visibility: visible;
-        }
-        .main-navigation a {
-          display: block;
-          margin: auto;
-          margin-bottom: 8px;
-        }
-        .main-navigation a.btn {
-          text-align: center;
-        }
-        .more-btn {
-          display: block;
-          position: absolute;
-          right: 12px;
-          top: 8px;
-          width: 40px;
-          height: 40px;
-          border-radius: 8px;
-          border: none;
-          background-color: transparent;
-        }
-        .more-btn .icon {
-          display: block;
-          width: 24px;
-          height: 24px;
-          margin: 0 auto;
-          background: url(../yu_project/images/icon-menu.png) no-repeat center;
-          background-size: contain;
-        }
-        .more-btn.active .icon {
-          background: url(../yu_project/images/icon-menu.png) no-repeat center;
-          background-size: contain;
-        }
+
         .cover {
           width: 90%;
+          height: auto;
         }
         .cover ul li a {
           font-weight: 200;
@@ -107,9 +64,29 @@
           padding: 5px;
           box-shadow: none;
         }
+        .panel {
+          border: none;
+          border-radius: 0;
+          background-color: rgba(255, 255, 255, 0);
+          margin-bottom: 15px;
+          text-align: center;
+        }
+        .cover ul li a {
+          color: #fff;
+          font-size: 2rem;
+        }
+        .footer {
+          margin-top: 0;
+          padding-top: 20px;
+          padding-bottom: 0;
+        }
+        .footer .footer-logo-box .logo {
+          width: 0px;
+          margin-left: 20px;
+          padding-right: 0;
+        }
       }
     </style>
-    <script></script>
   </head>
   <body>
     <div class="header-box">
@@ -127,10 +104,10 @@
 
     <div class="cover">
       <div class="left-container">
-        <nav class="main-navigation">
+        <nav class="main-navigation" id="nav">
           <ul class="panel-group">
             <li>
-              <a href="2022InternatinalWorkshop.php">
+              <a href="2022InternatinalWorkshop.html">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Welcome</h4>
@@ -185,14 +162,12 @@
             </li>
           </ul>
         </nav>
-        <button class="more-btn">
+        <button class="more-btn" id="btn" onclick="showNav()">
           <i class="icon"></i>
         </button>
-        <script
-          type="text/javascript"
-          src="../yu_project/js/custom.js"
-        ></script>
+        <script src="../yu_project/js/custom.js"></script>
       </div>
+
       <div class="right-container">
         <div class="tabcontent">
           <div class="title">
@@ -279,7 +254,7 @@
       </div>
     </div>
 
-    <!-- <div class="footer">
+    <div class="footer">
       <div class="footer-logo-box">
         <p class="logo"></p>
       </div>
@@ -295,6 +270,6 @@
           reserved
         </p>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
