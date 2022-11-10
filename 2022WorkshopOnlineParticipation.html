@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/container.css" />
-    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/online.css" />
   </head>
   <body>
     <div class="header-box">
@@ -27,7 +27,7 @@
 
     <div class="cover">
       <div class="left-container">
-        <nav>
+        <nav class="main-navigation" id="nav">
           <ul class="panel-group">
             <li>
               <a href="2022InternatinalWorkshop.php">
@@ -67,7 +67,7 @@
             </li>
             <li>
               <a href="2022WorkshopRegistration.php">
-                <div class="panel panel-primary on">
+                <div class="panel panel-primary">
                   <div class="panel-heading">
                     <h4>Registration</h4>
                   </div>
@@ -76,7 +76,7 @@
             </li>
             <li>
               <a href="2022WorkshopOnlineParticipation.php">
-                <div class="panel panel-primary">
+                <div class="panel panel-primary on">
                   <div class="panel-heading">
                     <h4>Online Participation</h4>
                   </div>
@@ -85,14 +85,28 @@
             </li>
           </ul>
         </nav>
+        <button class="more-btn" id="btn" onclick="showNav()">
+          <i class="icon"></i>
+        </button>
+        <script src="../yu_project/js/custom.js"></script>
       </div>
       <div class="right-container">
         <div class="tabcontent">
           <div class="title">
-            <h4>Registration</h4>
+            <h4>Online Participant</h4>
           </div>
-          <div>
-            <h2>500 USD (for face-to-face participant only)</h2>
+          <div class="content">
+            <div class="text">
+              <h2>Zoom Link</h2>
+            </div>
+            <div>
+              <button
+                onclick="location.href='https://us02web.zoom.us/j/81871524332?pwd=UlhxVEtITlpOaEhiS2x6aHFobFNnZz09';"
+                class="button"
+              >
+                <span>Start Zoom Meeting</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

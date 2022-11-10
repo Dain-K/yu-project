@@ -27,7 +27,7 @@
 
     <div class="cover">
       <div class="left-container">
-        <nav>
+        <nav class="main-navigation" id="nav">
           <ul class="panel-group">
             <li>
               <a href="2022InternatinalWorkshop.php">
@@ -85,6 +85,10 @@
             </li>
           </ul>
         </nav>
+        <button class="more-btn" id="btn" onclick="showNav()">
+          <i class="icon"></i>
+        </button>
+        <script src="../yu_project/js/custom.js"></script>
       </div>
       <div class="right-container">
         <div class="tabcontent">
